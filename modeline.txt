@@ -1,0 +1,3 @@
+
+" vim: et sw=2 sts=2 tw=78
+" vim: foldmethod=marker
