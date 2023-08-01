@@ -1,10 +1,10 @@
+" Settings: .sql files
 
 set autoindent
 set expandtab
+set foldmethod=syntax
 set shiftwidth=3
 set softtabstop=3
-
-set foldmethod=syntax
 
 if 0
 
@@ -33,4 +33,3 @@ if 0
   endfunc
 
 endif
-

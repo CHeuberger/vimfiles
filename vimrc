@@ -1,6 +1,7 @@
-" init.vim: Vim initial settings plugin
+" vimrc: initial settings for VIM
 " Maintainer:Carlos Heuberger
 
+" already done for EVIM
 if v:progname =~? "evim"
   finish
 endif
@@ -16,21 +17,21 @@ set nocompatible
 behave mswin
 
 set backspace=indent,eol,start
-set backup		" keep a backup file
+set backup              " keep a backup file
 set display=truncate    " show @@@ in last line if truncated
 set encoding=utf-8
 set noexpandtab
 set guifont=DejaVu_Sans_Mono:h10:cANSI
 set guioptions+=!       " no console for external commands
-set history=200		" keep 200 lines of command line history
-set incsearch		" do incremental searching
+set history=200         " keep 200 lines of command line history
+set incsearch           " do incremental searching
 set laststatus=2        " always show status line
-set modeline		" check for modelines
+set modeline            " check for modelines
 set nrformats-=octal    " do not increment/decrement as octal
 set number              " show line numbers
-set ruler		" show the cursor position all the time
+set ruler               " show the cursor position all the time
 set shiftwidth=4
-set showcmd		" display incomplete commands
+set showcmd             " display incomplete commands
 set softtabstop=4
 set whichwrap+=<,>,[,]
 set wildmenu            " enhanced mode for command-line completion
@@ -90,7 +91,7 @@ endfunction
 " Command to see the difference between the current buffer and the original
 if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
-		  \ | wincmd p | diffthis
+        \ | wincmd p | diffthis
 endif
 
 
@@ -156,4 +157,3 @@ endif " 1
 if has('syntax') && has('eval')
   packadd! matchit
 endif
-

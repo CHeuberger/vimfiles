@@ -1,4 +1,4 @@
-" mips.vim - Syntax highlighting for Stationeers MIPS
+" Syntax: Stationeers MIPS
 " Maintainer: Carlos F Heuberger
 " Version:    0.2
 
@@ -109,5 +109,3 @@ let b:current_syntax = "mips"
 
 let &cpo = s:keepcpo
 unlet s:keepcpo
-
-" vim:ts=18  sw=2  fdm=marker

@@ -1,4 +1,4 @@
-" settings for .java files
+" Settings: .java files
 
 set autoindent
-set makeprg=java\ --enable-preview\ --source\ 13\ %
+set makeprg=java\ --enable-preview\ --source\ 21\ %
