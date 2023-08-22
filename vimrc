@@ -19,6 +19,7 @@ behave mswin
 
 set backspace=indent,eol,start
 set backup              " keep a backup file
+set patchmode=.bak      " and the original
 set display=truncate    " show @@@ in last line if truncated
 set encoding=utf-8
 set noexpandtab
