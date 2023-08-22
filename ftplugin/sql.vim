@@ -1,4 +1,6 @@
 " Settings: .sql files
+" Author: Carlos Heuberger
+" Version: 1.0
 
 set autoindent
 set expandtab

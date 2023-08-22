@@ -4,6 +4,8 @@ Settings for VIM and GVIM.
 
 Put these files and directories in the `~/.vim` folder (users `vimfiles` for Windows.)
 
+Author: Carlos Heuberger
+Version: 1.0
 
 
 ## VIM initialization

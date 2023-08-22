@@ -1,4 +1,6 @@
 " Settings: .vim files
+" Author: Carlos Heuberger
+" Version: 1.0
 
 set foldmethod=marker
 set shiftwidth=2

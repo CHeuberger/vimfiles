@@ -1,5 +1,6 @@
 " vimrc: initial settings for VIM
-" Maintainer:Carlos Heuberger
+" Author: Carlos Heuberger
+" Version: 1.0
 
 " already done for EVIM
 if v:progname =~? "evim"

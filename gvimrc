@@ -1,3 +1,4 @@
 " gvimrc: initial settings for GVIM
-" Maintainer:Carlos Heuberger
+" Author: Carlos Heuberger
+" Version: 1.0
 
