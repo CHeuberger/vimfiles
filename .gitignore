@@ -3,5 +3,7 @@
 *.swp
 *.orig
 
+/.netrwhist
+
 /pack/
 /pack.off/

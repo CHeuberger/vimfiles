@@ -1,6 +1,6 @@
 " vimrc: initial settings for VIM
 " Author: Carlos Heuberger
-" Version: 1.0
+" Version: 1.1
 
 " already done for EVIM
 if v:progname =~? "evim"
@@ -133,6 +133,11 @@ nmap <unique> <F11> :make %<CR>
 nmap <Leader>[ :N<CR>
 nmap <Leader>] :n<CR>
 
+map <F7> :if exists("g:syntax_on") <Bar>
+         \  syntax off <Bar>
+         \else <Bar>
+         \  syntax enable <Bar>
+         \endif <CR>
 
 " Only if compiled with +eval
 if 1
