@@ -133,6 +133,9 @@ nmap <unique> <F11> :make %<CR>
 nmap <Leader>[ :N<CR>
 nmap <Leader>] :n<CR>
 
+map <F3> i<C-R>=strftime('%Y-%m-%d %H:%M:%S')<CR><ESC>
+imap <F3> <C-R>=strftime('%Y-%m-%d %H:%M:%S')<CR>
+
 map <F7> :if exists("g:syntax_on") <Bar>
          \  syntax off <Bar>
          \else <Bar>
